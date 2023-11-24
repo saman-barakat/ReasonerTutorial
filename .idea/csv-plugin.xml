@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CsvFileAttributes">
+    <option name="attributeMap">
+      <map>
+        <entry key="E:\APIGateway-master\src\test\resources\GatewayExperiment\ExecutionTime\AmadeusFlight\NoDetection.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\src\test\resources\GatewayExperiment\ExecutionTime\AmadeusHotel\IDLDetectionAndExplanation.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\src\test\resources\GatewayExperiment\ExecutionTime\Box\IDLDetection.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\src\test\resources\GatewayExperiment\ExecutionTime\Box\IDLDetectionAndExplanation.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\src\test\resources\GatewayExperiment\ExecutionTime\DHL\NoDetection.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\src\test\resources\GatewayExperiment\ExecutionTime\FSQ\IDLDetection.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\src\test\resources\GatewayExperiment\ExecutionTime\FSQ\IDLDetectionAndExplanation.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\src\test\resources\GatewayExperiment\ExecutionTime\FSQ\NoDetection.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\src\test\resources\GatewayExperiment\ExecutionTime\GitHub\IDLDetectionAndExplanation.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\src\test\resources\GatewayExperiment\ExecutionTime\OMDb\IDLDetection.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\src\test\resources\GatewayExperiment\ExecutionTime\OMDb\IDLDetectionAndExplanation.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\src\test\resources\GatewayExperiment\ExecutionTime\OMDb\NoDetection.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\src\test\resources\GatewayExperiment\ExecutionTime\Tumblr\IDLDetection.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\src\test\resources\GatewayExperiment\ExecutionTime\Tumblr\IDLDetectionAndExplanation.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\src\test\resources\GatewayExperiment\ExecutionTime\Tumblr\NoDetection.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\src\test\resources\GatewayExperiment\ExecutionTime\YelpBusinessesSearch\IDLDetectionAndExplanation.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\src\test\resources\GatewayExperiment\ExecutionTime\YelpBusinessesSearch\NoDetection.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\src\test\resources\GatewayExperiment\ExecutionTime\YelpTransactionsSearch\IDLDetection.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\src\test\resources\GatewayExperiment\ExecutionTime\YelpTransactionsSearch\IDLDetectionAndExplanation.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\src\test\resources\GatewayExperiment\ExecutionTime\YelpTransactionsSearch\NoDetection.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\target\test-classes\GatewayExperiment\ExecutionTime\AmadeusFlight\NoDetection.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\target\test-classes\GatewayExperiment\ExecutionTime\AmadeusHotel\IDLDetectionAndExplanation.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\target\test-classes\GatewayExperiment\ExecutionTime\Box\IDLDetection.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\target\test-classes\GatewayExperiment\ExecutionTime\Box\IDLDetectionAndExplanation.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\target\test-classes\GatewayExperiment\ExecutionTime\DHL\NoDetection.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\target\test-classes\GatewayExperiment\ExecutionTime\FSQ\IDLDetection.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\target\test-classes\GatewayExperiment\ExecutionTime\FSQ\IDLDetectionAndExplanation.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\target\test-classes\GatewayExperiment\ExecutionTime\FSQ\NoDetection.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\target\test-classes\GatewayExperiment\ExecutionTime\GitHub\IDLDetectionAndExplanation.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\target\test-classes\GatewayExperiment\ExecutionTime\OMDb\IDLDetection.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\target\test-classes\GatewayExperiment\ExecutionTime\OMDb\IDLDetectionAndExplanation.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\target\test-classes\GatewayExperiment\ExecutionTime\OMDb\NoDetection.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\target\test-classes\GatewayExperiment\ExecutionTime\Tumblr\IDLDetection.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\target\test-classes\GatewayExperiment\ExecutionTime\Tumblr\IDLDetectionAndExplanation.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\target\test-classes\GatewayExperiment\ExecutionTime\Tumblr\NoDetection.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\target\test-classes\GatewayExperiment\ExecutionTime\YelpTransactionsSearch\IDLDetection.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\target\test-classes\GatewayExperiment\ExecutionTime\YelpTransactionsSearch\IDLDetectionAndExplanation.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGateway-master\target\test-classes\GatewayExperiment\ExecutionTime\YelpTransactionsSearch\NoDetection.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\BingMarketCodes-incomplete.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\BingSupportedLanguages.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\CountryCodes-ISO-3166-1-alpha-2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\FoursquareCategoryIds-incomplete.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\DHL_e2e\findByAddress_countryCode.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Fixer Currency\operations-default-Convert_from.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Fixer Currency\operations-default-Convert_to.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Fixer Currency\operations-default-Historical_Rates_base.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Fixer Currency\operations-default-Historical_Rates_symbols.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Fixer Currency\operations-default-Latest_Rates_base.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Fixer Currency\operations-default-Latest_Rates_symbols.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Hotel Shopping API\getMultiHotelOffers_cityCode.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Hotel Shopping API\getMultiHotelOffers_currency.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Hotel Shopping API\getMultiHotelOffers_hotelName.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Hotel Shopping API\getMultiHotelOffers_lang.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Hotel Shopping API\getMultiHotelOffers_latitude.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Hotel Shopping API\getMultiHotelOffers_longitude.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Hotel Shopping API\getSingleHotelOffers_currency.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Hotel Shopping API\getSingleHotelOffers_lang.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\OMDb API\search_s.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\OMDb API\search_t.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\OMDb API\search_y.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\REST countries API\v1Alphacode_alphacode.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\REST countries API\v2Regionalbloc_fields.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\REST countries API\v2Regionalbloc_regionalbloc.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\RecipeFoodNutrition\operations-Compute-Image_Analysis_URL_imageUrl.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\RecipeFoodNutrition\operations-Compute-Image_Classification_URL_imageUrl.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\RecipeFoodNutrition\operations-Extract-Extract_Recipe_from_Website_url.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\RecipeFoodNutrition\operations-Search-Get-Wine-Description_wine.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\RecipeFoodNutrition\operations-Search-Get_Ingredient_Substitutes_ingredientName.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\RecipeFoodNutrition\operations-Search-Get_Wine_Pairing_food.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\RedLine Zipcode\multiple-zip-codes-by-radius_zip_codes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\RedLine Zipcode\operations-Distance-Distance_Between_Zip_Codes_zipcode1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\RedLine Zipcode\operations-Distance-Distance_Between_Zip_Codes_zipcode2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\RedLine Zipcode\operations-Location_Info-Zip_Code_to_Location_Information_zipcode.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\RedLine Zipcode\operations-default-Multiple_Zip_Codes_to_Location_Information_zipcodes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Restb.ai Watermark Detection\restbaiWatermarkDetection-wmdetect_image_url.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Spotify\browseFeaturedPlaylists_country.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Spotify\browseFeaturedPlaylists_country_beforeRegex.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Spotify\browseFeaturedPlaylists_locale.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Spotify\browseFeaturedPlaylists_timestamp.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Yelp\getBusinesses_latitude.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Yelp\getBusinesses_location.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Yelp\getBusinesses_longitude.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Yelp\getTransactions_latitude.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Yelp\getTransactions_location.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\Yelp\getTransactions_longitude.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\airportInfo\apiendpoint_340c4d83-e0ae-4e4e-8759-5d53a53349c7_iata.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\airportInfo\apiendpoint_340c4d83-e0ae-4e4e-8759-5d53a53349c7_icao.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\climaCell\apiendpoint_1788f7e5-2a1e-4683-9b84-c434b9a52491_lat.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\climaCell\apiendpoint_1788f7e5-2a1e-4683-9b84-c434b9a52491_lon.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\climaCell\apiendpoint_8e382cbc-04a4-4d79-8054-e7f77f5b39d4_lat.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\climaCell\apiendpoint_8e382cbc-04a4-4d79-8054-e7f77f5b39d4_lon.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Generated\sampleSemanticAPI\sampleEndpoint_currency.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\HotelAmenities.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\HotelChainCodes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\HotelCodes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\IATACodes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\ISO-4217-CurrencyCodes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\ISO-639-LangCodes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\MarvelCharacterIDs.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\MarvelComicIDs-incomplete.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\MarvelCreatorIDs.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\MarvelEventIDs.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\MarvelSeriesIDs.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\MarvelStoryIDs-incomplete.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\Stripe-currency-codes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\features-service-configurations.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\features-service-features.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\features-service-products.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\imdbId.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\languagetool-categories.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\languagetool-codes-variants.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\languagetool-codes-with-auto.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\languagetool-codes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\languagetool-rules-2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\languagetool-rules.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\yelp-categories.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\yelp-locales.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\yelp-locations.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\youtube-topic-ids.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\main\resources\TestData\youtube-video-category-ids.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\DHL\findByAddress_addressLocality.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\DHL\findByAddress_countryCode.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\DHL\findByAddress_postalCode.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\DHL\findByAddress_streetAddress.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\FDIC\failure_properties.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\FDIC\history_properties.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\FDIC\institution_properties.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\FDIC\location_properties.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\FDIC\risview_properties.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\FDIC\summary_properties.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\Folder\test_data\alphacodes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\Folder\test_data\alphacodes_v3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\Folder\test_data\callingcodes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\Folder\test_data\capitals.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\Folder\test_data\currencies.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\Folder\test_data\currencies_v3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\Folder\test_data\demonyms.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\Folder\test_data\fields.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\Folder\test_data\languages.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\Folder\test_data\languages_v3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\Folder\test_data\names.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\Folder\test_data\regions.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\Folder\test_data\subregions.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\Folder\test_data\translations.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\OMDb\time_ARTE.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\csvData\coverage-results.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\csvData\csvCollectionSample.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\csvData\csvManagerReadSample.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\csvData\csvManagerSample.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\csvData\test-cases-coverage.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\csvData\test-cases.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\csvData\test-coverage.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\csvData\test-results-coverage.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\csvData\test-results.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\csvData\testCasesDiversityTest.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\csvData\testCasesManagerSample.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="E:\APIGatewayExperiment\RESTest\src\test\resources\csvData\testResultsManagerSample.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
