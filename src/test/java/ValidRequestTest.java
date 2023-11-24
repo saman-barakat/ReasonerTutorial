@@ -1,16 +1,13 @@
-package es.us.isa.idlreasonerchoco;
-
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import es.us.isa.idlreasonerchoco.analyzer.Analyzer;
+import es.us.isa.idlreasonerchoco.analyzer.OASAnalyzer;
+import es.us.isa.idlreasonerchoco.configuration.IDLException;
+import org.junit.jupiter.api.Test;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import org.junit.jupiter.api.Test;
-
-import es.us.isa.idlreasonerchoco.analyzer.Analyzer;
-import es.us.isa.idlreasonerchoco.analyzer.OASAnalyzer;
-import es.us.isa.idlreasonerchoco.configuration.IDLException;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class ValidRequestTest {
 

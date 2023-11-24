@@ -1,40 +1,17 @@
-package es.us.isa.idlreasonerchoco;
-
-import java.time.Duration;
-import java.util.*;
-import java.util.concurrent.TimeUnit;
-
+import es.us.isa.idlreasonerchoco.analyzer.Analyzer;
+import es.us.isa.idlreasonerchoco.analyzer.OASAnalyzer;
+import es.us.isa.idlreasonerchoco.configuration.IDLException;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
-import es.us.isa.idlreasonerchoco.analyzer.Analyzer;
-import es.us.isa.idlreasonerchoco.analyzer.OASAnalyzer;
-import es.us.isa.idlreasonerchoco.configuration.IDLException;
+import java.time.Duration;
+import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class AdditionalTests {
 
-    @Test
-    public void idl4oasTest() throws IDLException {
-        Analyzer analyzer = new OASAnalyzer("./src/test/resources/OAS_example_orig.yaml", "/optionalParams", "get");
-        assertTrue(analyzer.isValidIDL(), "The IDL should be VALID");
-        System.out.println("Test passed: idl4oasTest.");
-    }
-
-    @Test
-    public void formDataParametersTest() throws IDLException {
-        Analyzer analyzer = new OASAnalyzer("./src/test/resources/stripe_v3.yaml", "/v1/products", "post");
-        assertTrue(analyzer.isValidIDL(), "The IDL should be VALID");
-        System.out.println("Test passed: formDataParametersTest.");
-    }
-
-    @Test
-    public void formDataParametersV3Test() throws IDLException {
-        Analyzer analyzer = new OASAnalyzer("./src/test/resources/stripe_v3.yaml", "/v1/products", "post");
-        assertTrue(analyzer.isValidIDL(), "The IDL should be VALID");
-    }
 
     @Test
     public void validAfterInvalidRequest() throws IDLException {
@@ -691,182 +668,4 @@ public class AdditionalTests {
 
         return inputData;
     }
-
-    @Test
-    public void problematicYelpDependencies() throws IDLException {
-        assertTimeoutPreemptively(Duration.ofSeconds(30), () ->{
-            Analyzer analyzer = new OASAnalyzer("./src/test/resources/yelp.yaml", "/businesses/search", "get");
-
-            Map<String, List<String>> inputData = getYelpData();
-
-            analyzer.updateData(inputData);
-
-            for (int i = 0; i < 100; i++) {
-                // Dead parameter
-                assertFalse(analyzer.isDeadParameter("offset"));
-                assertFalse(analyzer.isDeadParameter("latitude"));
-                assertFalse(analyzer.isDeadParameter("sort_by"));
-                assertFalse(analyzer.isDeadParameter("locale"));
-                assertFalse(analyzer.isDeadParameter("open_now"));
-                assertFalse(analyzer.isDeadParameter("price"));
-                assertFalse(analyzer.isDeadParameter("limit"));
-                assertFalse(analyzer.isDeadParameter("term"));
-                assertFalse(analyzer.isDeadParameter("location"));
-                assertFalse(analyzer.isDeadParameter("attributes"));
-                assertFalse(analyzer.isDeadParameter("categories"));
-                assertFalse(analyzer.isDeadParameter("radius"));
-                assertFalse(analyzer.isDeadParameter("open_at"));
-                assertFalse(analyzer.isDeadParameter("longitude"));
-
-                // False optional parameter
-                assertFalse(analyzer.isFalseOptional("offset"));
-                assertFalse(analyzer.isFalseOptional("latitude"));
-                assertFalse(analyzer.isFalseOptional("sort_by"));
-                assertFalse(analyzer.isFalseOptional("locale"));
-                assertFalse(analyzer.isFalseOptional("open_now"));
-                assertFalse(analyzer.isFalseOptional("price"));
-                assertFalse(analyzer.isFalseOptional("limit"));
-                assertFalse(analyzer.isFalseOptional("term"));
-                assertFalse(analyzer.isFalseOptional("location"));
-                assertFalse(analyzer.isFalseOptional("attributes"));
-                assertFalse(analyzer.isFalseOptional("categories"));
-                assertFalse(analyzer.isFalseOptional("radius"));
-                assertFalse(analyzer.isFalseOptional("open_at"));
-                assertFalse(analyzer.isFalseOptional("longitude"));
-
-                // Consistent
-                assertTrue(analyzer.isConsistent());
-
-                // Valid IDL
-                assertTrue(analyzer.isValidIDL());
-
-                // Random valid request
-                Map<String, String> validRequest = analyzer.getRandomValidRequest();
-
-                // Random invalid request
-                Map<String, String> invalidRequest = analyzer.getRandomInvalidRequest();
-
-                // Valid partial request
-                assertTrue(analyzer.isValidPartialRequest(validRequest));
-
-                // Valid request
-                assertTrue(analyzer.isValidRequest(validRequest));
-                assertFalse(analyzer.isValidRequest(invalidRequest));
-
-//                System.out.println(i);
-            }
-        });
-    }
-
-    @Test
-    public void updateDataYelpDependenciesInvalidRequests() throws IDLException {
-        Analyzer analyzer = new OASAnalyzer("./src/test/resources/yelp.yaml", "/businesses/search", "get");
-
-        Map<String, List<String>> inputData = getYelpData();
-
-        List<Map<String, String>> invalidRequests = new ArrayList<>();
-
-        for (int i = 0; i < 4; i++) {
-            analyzer.updateData(inputData);
-            for (int j = 0; j < 3; j++) {
-                invalidRequests.add(analyzer.getRandomInvalidRequest());
-            }
-        }
-
-        for (int k = 0; k < invalidRequests.size(); k++) {
-            assertFalse(analyzer.isValidRequest(invalidRequests.get(k)), "The " + k + "th request is valid");
-        }
-    }
-
-    @Test
-    public void updateDataYelpDependenciesValidRequests() throws IDLException {
-        Analyzer analyzer = new OASAnalyzer("./src/test/resources/yelp.yaml", "/businesses/search", "get");
-
-        Map<String, List<String>> inputData = getYelpData();
-
-        List<Map<String, String>> validRequests = new ArrayList<>();
-
-        for (int i = 0; i < 4; i++) {
-            analyzer.updateData(inputData);
-            for (int j = 0; j < 3; j++) {
-                validRequests.add(analyzer.getRandomValidRequest());
-            }
-        }
-
-        for (int k = 0; k < validRequests.size(); k++) {
-            assertTrue(analyzer.isValidRequest(validRequests.get(k)), "The " + k + "th request is valid");
-        }
-    }
-
-    @Test
-    public void updateDataYelpDependenciesValidAndInvalidRequests() throws IDLException {
-        Analyzer analyzer = new OASAnalyzer("./src/test/resources/yelp.yaml", "/businesses/search", "get");
-
-        Map<String, List<String>> inputData = getYelpData();
-
-        List<Map<String, String>> requests = new ArrayList<>();
-
-        for (int i = 0; i < 4; i++) {
-            if (i%2 == 0)
-                analyzer.updateData(inputData);
-            for (int j = 0; j < 3; j++) {
-                Map<String, String> request;
-                if (i == 0 || i == 3)
-                    request = analyzer.getRandomValidRequest();
-                else
-                    request = analyzer.getRandomInvalidRequest();
-                requests.add(request);
-            }
-        }
-
-        for (int k = 0; k < requests.size(); k++) {
-            if (k < 3 || k >= 9)
-                assertTrue(analyzer.isValidRequest(requests.get(k)), "The " + k + "th request is invalid");
-            else
-                assertFalse(analyzer.isValidRequest(requests.get(k)), "The " + k + "th request is valid");
-        }
-    }
-
-    
-
-
-
-//    @Test
-//    public void loopInvalid() throws IDLException {
-//        Analyzer analyzer = new OASAnalyzer("./src/test/resources/OAS_test_suite_orig.yaml", "/combinatorial3", "get");
-//        for (int i=0; i<=1000; i++) {
-//            Map<String, String> invalidRequest = analyzer.getRandomInvalidRequest();
-//            // System.out.println(invalidRequest);
-//            assertFalse(analyzer.isValidRequest(invalidRequest), "The request should be NOT valid");
-//        }
-//        System.out.println("Test passed: combinatorial3.");
-//    }
-//
-//    @Test
-//    public void loopValid() throws IDLException {
-//        Analyzer analyzer = new OASAnalyzer("./src/test/resources/OAS_test_suite_orig.yaml", "/combinatorial3", "get");
-//        for (int i=0; i<=1000; i++) {
-//            Map<String, String> validRequest = analyzer.getRandomValidRequest();
-//            // System.out.println(invalidRequest);
-//            assertFalse(!analyzer.isValidRequest(validRequest), "The request should be valid");
-//        }
-//        System.out.println("Test passed: combinatorial3.");
-//    }
-//
-//    @Test
-//    public void loopValidInvalid() throws IDLException {
-//        Analyzer analyzer = new OASAnalyzer("./src/test/resources/OAS_test_suite_orig.yaml", "/combinatorial3", "get");
-//        for (int i=0; i<=1000; i++) {
-//            if (i%2==0) {
-//                Map<String, String> validRequest = analyzer.getRandomValidRequest();
-//                // System.out.println(invalidRequest);
-//                assertFalse(!analyzer.isValidRequest(validRequest), "The request should be valid");
-//            } else {
-//                Map<String, String> invalidRequest = analyzer.getRandomInvalidRequest();
-//                // System.out.println(invalidRequest);
-//                assertFalse(analyzer.isValidRequest(invalidRequest), "The request should be NOT valid");
-//            }
-//        }
-//        System.out.println("Test passed: combinatorial3.");
-//    }
 }

@@ -1,13 +1,10 @@
-package es.us.isa.idlreasonerchoco;
-
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
-import org.junit.jupiter.api.Test;
-
 import es.us.isa.idlreasonerchoco.analyzer.Analyzer;
 import es.us.isa.idlreasonerchoco.analyzer.OASAnalyzer;
 import es.us.isa.idlreasonerchoco.configuration.IDLException;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
 public class ValidIDLTest {
